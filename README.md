@@ -1,4 +1,5 @@
 # developers_hub_corporation_intern
+<<<<<<< HEAD
 
 A new Flutter project.
 
@@ -14,4 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+>>>>>>> 4e4a74dce67f590bb1d430912e2f178edb78e55e
 Repository for the development I'm going to do as a Developers Hub intern
