@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Internship-Week%201-7C3AED?style=for-the-badge"/>
 </p>
 
-<h1 align="center">🔐 Flutter Login App</h1>
+🔐 Flutter Login App</h1>
 
 <p align="center">
   A Flutter application built as part of <strong>Week 1</strong> of the DevelopersHub Corporation Flutter Development Internship. Covers environment setup, UI layout with core widgets, screen navigation, and form validation.
@@ -15,7 +15,12 @@
 
 ## 📱 Screenshots
 
-> Add screenshots of your Login Screen and Home Screen here.
+<p align="center">
+  <img width="24%" alt="Screenshot 1" src="https://github.com/user-attachments/assets/6d22a8f6-7226-455f-b81d-de6e33fad4c9" />
+  <img width="24%" alt="Screenshot 2" src="https://github.com/user-attachments/assets/35e702d6-bbcc-4bba-a5c6-f6852401e56f" />
+  <img width="24%" alt="Screenshot 3" src="https://github.com/user-attachments/assets/25d4d5ae-c7b1-4ba0-83d1-efc5aad6d001" />
+  <img width="24%" alt="Screenshot 4" src="https://github.com/user-attachments/assets/9caeadda-0f1f-4f46-9187-5224f8fdb39b" />
+</p>
 
 ---
 
@@ -35,10 +40,26 @@
 
 ```
 lib/
-├── main.dart              # App entry point and MaterialApp setup
-├── screens/
-│   ├── login_screen.dart  # Login UI with form validation
-│   └── home_screen.dart   # Home screen (post-login destination)
+├── main.dart                          # App entry point and MaterialApp setup
+├── theme.dart                         # App-wide colors, text styles, and theme data
+├── home_screen.dart                   # Home screen shown after login
+├── login_form.dart                    # Login screen with form and navigation logic
+│
+├── high_level_widgets/                # Composite widgets built from low-level ones
+│   ├── email_field.dart               # Email input with validation
+│   ├── password_field.dart            # Password input with show/hide toggle
+│   ├── profile_summary_card.dart      # User profile summary card
+│   ├── settings_group.dart            # Grouped settings section widget
+│   └── settings_row.dart              # Individual settings row item
+│
+└── low_level_widgets/                 # Primitive, single-responsibility widgets
+    ├── avatar.dart                    # Circular avatar/profile image widget
+    ├── icon_badge.dart                # Icon with optional badge count
+    ├── link_button.dart               # Tappable text link button
+    ├── outline_action_button.dart     # Bordered action button variant
+    ├── primary_button.dart            # Main filled CTA button
+    ├── section_label.dart             # Section heading/label text
+    └── text_field.dart                # Base custom text input widget
 ```
 
 ---
@@ -149,8 +170,6 @@ This project was built for **Week 1** of the [DevelopersHub Corporation](https:/
 - Implement navigation from Login Screen to Home Screen using `Navigator.push()`
 - Add form validation for email and password fields
 
-**Week 2 →** [Glassmorphic To-Do List App with SharedPreferences](https://github.com/ahmed-khan-afk/developers_hub_corporation_intern_2)
-
 ---
 
 ## 👨‍💻 Author
@@ -161,4 +180,4 @@ Flutter Development Intern @ DevelopersHub Corporation
 
 ---
 
-<p align="center">Built with 💜 Flutter — DevelopersHub Corporation Internship Week 1</p>
+<p align="center">Built with 💜 Flutter</p>
